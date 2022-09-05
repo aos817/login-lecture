@@ -5,7 +5,7 @@ const express=require("express");
 const bodyParser=require("body-parser");
 const app=express();
 
-const PORT=3000;
+const PORT=3001;
 
 // 라우팅
 const home=require("./src/routes/home");
