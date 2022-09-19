@@ -8,7 +8,6 @@ dotenv.config();
 
 const app=express();
 
-const PORT=3001;
 
 // 라우팅
 const home=require("./src/routes/home");
