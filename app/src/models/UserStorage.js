@@ -4,7 +4,6 @@ const db=require("../config/db");
 
 
 class UserStorage{
- 
 
  static getUserInfo(id) {
     return new Promise((resolve,reject)=>{

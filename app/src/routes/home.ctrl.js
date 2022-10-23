@@ -1,18 +1,22 @@
 "use strict";
 
-const User = require("../../models/User");
+const User = require("../models/User");
 
 
 const output={
     home:(req,res)=>{
-        res.render("home/index");
+        res.render("index");
  }, 
     login:(req,res)=>{
-        res.render("home/login");
+        res.render("login");
  },
    register:(req,res)=>{
-      res.render("home/register");
+      res.render("register");
    },
+   rental:(req,res)=>{
+      res.render("rental");
+   }
+
 };
 
 
